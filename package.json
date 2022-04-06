@@ -1,0 +1,39 @@
+{
+  "name": "@asknotbad/sveltify",
+  "description": "Sveltify — Component Library for Svelte",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "cdn": "dist/index.mjs",
+  "unpkg": "dist/index.mjs",
+  "main": "dist/index.js",
+  "version": "0.0.2",
+  "scripts": {
+    "build": "node esbuild",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "dependencies": {
+    "highlight.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.48",
+    "esbuild-svelte": "^0.7.1",
+    "svelte": "^3.49.0"
+  },
+  "peerDependencies": {
+    "svelte": "3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asknotbad/sveltify.git"
+  },
+  "author": "Den Kochetkov <d@asknotbad.com> (https://asknotbad.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/asknotbad/sveltify/issues"
+  },
+  "homepage": "https://sveltify.dev"
+}
