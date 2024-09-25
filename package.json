@@ -21,7 +21,7 @@
   "devDependencies": {
     "esbuild": "^0.14.48",
     "esbuild-svelte": "^0.7.1",
-    "svelte": "^3.49.0"
+    "svelte": "^4.2.19"
   },
   "peerDependencies": {
     "svelte": "3.x"
